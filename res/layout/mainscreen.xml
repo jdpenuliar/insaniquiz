@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android1" >
+
+    <Button
+        android:id="@+id/Mainscreen_btnInstructions"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="About" />
+
+    <Button
+        android:id="@+id/Mainscreen_btnHighScore"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/Mainscreen_btnInstructions"
+        android:layout_centerHorizontal="true"
+        android:text="Highscore"/>
+
+    <Button
+        android:id="@+id/Mainscreen_btnPlaySample"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/Mainscreen_btnHighScore"
+        android:layout_centerHorizontal="true"
+        android:text="Play"/>
+
+    <Button
+        android:id="@+id/Mainscreen_btnQuit"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/Mainscreen_btnInstructions"
+        android:layout_centerHorizontal="true"
+        android:text="Quit"/>
+    
+</RelativeLayout>

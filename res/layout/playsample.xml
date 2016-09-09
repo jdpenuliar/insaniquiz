@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation = "vertical" 
+    android:background="@drawable/android1">
+    
+    <TextView
+        android:id="@+id/playsample_tvQuestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:gravity="center"
+        android:text="adsf"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+	    android:shadowColor="#000000"
+	    
+	    />
+
+
+    <RadioGroup
+        android:id="@+id/playsample_rgChoices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="50"
+        android:layout_below="@+id/playsample_tvQuestions"
+        >
+
+        <RadioButton
+            android:id="@+id/playsample_rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/playsample_rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/playsample_rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+        
+        <RadioButton
+            android:id="@+id/playsample_rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF" 
+            android:textSize="30dp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/playsample_btnOK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="85dp"
+        android:text="OK"
+        android:textSize="30dp" />
+    
+</RelativeLayout>
